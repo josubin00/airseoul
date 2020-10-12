@@ -1,0 +1,205 @@
+@charset "utf-8";
+html, body {
+    height: 9270px;
+    background : white url("../image/main.jpg") no-repeat;
+}
+
+
+#header {    width: 1920px;    height: 175px;}
+#header .home {    width: 1920px;    height: 95px;}
+
+#header .menu {    margin-left: 360px;    display: flex;    flex-direction: row}
+#header .menu .booking {    width: 336px; height: 80px;}
+#header .menu .service {    width: 264px; height: 80px;}
+#header .menu .card {    width: 264px; height: 80px;}
+#header .menu .event {    width: 336px; height: 80px;}
+
+/*header end*/
+
+#fix {    position: fixed;    top: 700px;    left: 1800px;    z-index: 999;}
+#chase #bot { margin-bottom: 6px}
+#chase #bot_chat {
+    position: fixed;
+    top: 263px;
+    left: 1482px;
+    display: none;
+    z-index: 9999;
+}
+
+/*fix end*/
+
+#main {    position: relative;}
+#main_slide{    background: white;}
+
+#main_slide .slidesjs-pagination {
+    position : absolute;
+    left: 1020px;
+    bottom: 85px;
+    z-index: 900;
+}
+
+#main_slide .slidesjs-pagination > li {    float : left;    margin-right: 10px;}
+#main_slide .slidesjs-pagination > li > a {
+    float : left;
+    width : 10px;
+    height: 10px;
+    border: white solid 0.5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-indent: -9999px;
+}
+
+#main_slide .slidesjs-pagination > li > a.active {
+    width : 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 100;
+    animation: active 1.5s linear infinite;
+}
+
+#main .booking_menu {
+    position: absolute;
+    top: 87px;
+    left: 360px;
+    z-index: 999;
+}
+
+/*main end*/
+
+
+#travel_info {
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+    background: url("../image/travel_info/travel_BG.jpg");
+}
+
+#travel_info > article { margin: 389px 0 0 360px; display: flex}
+#travel_info > article > div {
+    margin-left: 32px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+#travel_info > article .box {    width: 279px;    height: 422px;}
+
+#travel_info > article .t1 {
+    background: url("../image/travel_info/travel_1.png");}
+#travel_info > article .t1:hover {
+    background: url("../image/travel_info/travel1_h.png");}
+
+
+#travel_info > article .t2 {
+    background: url("../image/travel_info/travel_2.png");}
+#travel_info > article .t2:hover {
+    background: url("../image/travel_info/travel2_h.png");}
+
+
+#travel_info > article .t3 {
+    background: url("../image/travel_info/travel_3.png");}
+#travel_info > article .t3:hover {
+    background: url("../image/travel_info/travel3_h.png");}
+
+
+#travel_info > article .t4 {
+    background: url("../image/travel_info/travel_4.png");}
+#travel_info > article .t4:hover {
+    background: url("../image/travel_info/travel4_h.png");}
+
+
+/*travel_info end*/
+
+/*#mint_pass {*/
+/*    position: absolute;*/
+/*    width: 1920px;*/
+/*    height: 1000px;*/
+/*    margin-top: 980px;*/
+/*    background: url("../image/mint_pass/mintpass_BG.png") no-repeat;*/
+/*}*/
+/*#mint_pass > article {*/
+/*    !*width: 1920px;*!*/
+/*    margin-top: 247px;*/
+/*    display: flex;*/
+/*}*/
+/*#mint_pass > article .box {width: 383px; height: 572px;}*/
+
+/*mint_pass end*/
+
+#event_mobile {
+    position: absolute;
+    width: 1920px;
+    height: 580px;
+    margin-top: 3172px;
+    background: url("../image/event/main-mobile.jpg") no-repeat fixed;}
+/*event end*/
+
+#service {
+    position: absolute;
+    width: 1920px;
+    height: 580px;
+    margin-top: 3960px;
+    background: url("../image/sevice/sevice_BG.jpg")no-repeat;
+}
+
+#service > article {    margin: 172px 0 0 390px; display: flex}
+#service > article .box {     width: 228px;    height: 282px;}
+
+#service > article .s1 {
+    background: url("../image/sevice/service_1.jpg");}
+#service > article .s1:hover {
+    background: url("../image/sevice/service_h1.jpg");}
+
+#service > article .s2 {
+    background: url("../image/sevice/service_2.jpg");}
+#service > article .s2:hover {
+    background: url("../image/sevice/service_h2.jpg");}
+
+#service > article .s3 {
+    background: url("../image/sevice/service_3.jpg");}
+#service > article .s3:hover {
+    background: url("../image/sevice/service_h3.jpg");}
+
+#service > article .s4 {
+    background: url("../image/sevice/service_4.jpg");}
+#service > article .s4:hover {
+    background: url("../image/sevice/service_h4.jpg");}
+
+#service > article .s5 {
+    background: url("../image/sevice/service_5.jpg");}
+#service > article .s5:hover {
+    background: url("../image/sevice/service_h5.jpg");}
+
+/*service end*/
+
+
+#card {
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    margin-top: 4700px;
+}
+
+#card_slide .slidesjs-previous{
+    position: absolute;
+    top: 547px;
+    left: 532px;
+    width: 38px;
+    height: 38px;
+    background: url("../image/event/p.png") center no-repeat;
+    text-indent: -9999px;
+    z-index: 100;
+}
+
+#card_slide .slidesjs-next{
+    position: absolute;
+    top: 547px;
+    left: 1333px;
+    width: 38px;
+    height: 38px;
+    background: url("../image/event/n.png") center no-repeat;
+    text-indent: -9999px;
+    z-index: 100;
+}
+
+/*service_card end*/

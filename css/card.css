@@ -1,0 +1,17 @@
+@charset "utf-8";
+html, body {
+    height: 2995px;
+    background: white url("../image/card.jpg") no-repeat;
+}
+
+#header {    width: 1920px;    height: 175px;}
+#header .home {    width: 1920px;    height: 95px;}
+
+#header .menu {
+    margin-left: 360px;
+    display: flex;
+    flex-direction: row}
+#header .menu .booking {    width: 336px; height: 80px;}
+#header .menu .service {    width: 264px; height: 80px;}
+#header .menu .card {    width: 264px; height: 80px;}
+#header .menu .event {    width: 336px; height: 80px;}
